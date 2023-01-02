@@ -1,0 +1,40 @@
+.new-product {
+    background-color: #FFA987;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-product button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #b63400;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-product button:hover,
+  
+  .new-product button:active {
+    background-color: #f75d1f;
+    /* border-color: #f75d1f; */
+  }
+  
+  .new-product button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-product button.alternative:hover,
+  
+  .new-product button.alternative:active {
+    background-color: #FFA987;
+  }
